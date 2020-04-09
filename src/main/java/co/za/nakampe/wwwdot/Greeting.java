@@ -1,21 +1,7 @@
 package co.za.nakampe.wwwdot;
 
-public class Greeting{
+public interface Greeting{
 
-private String message;
-
-public Greeting(String message){
-this.message= message;
-}
-
-public Greeting(){}
-
-public String getMessage(){
-  return message;
-}
-
-public void setMessage(String message){
-this.message=message;
-}
+public String getMessage();
 
 }

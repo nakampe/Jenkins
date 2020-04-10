@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 public class SetswanaGreetingTest{
 
 @Test
-public void shouldSetMessage(){
+public void shouldReturnMessage(){
 
 Greeting greeting = new SetswanaGreeting("Dumela");
 
